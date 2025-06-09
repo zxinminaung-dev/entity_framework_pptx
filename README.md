@@ -4,10 +4,15 @@
 Entity Framework (EF) Core is an **ORM (Object Relational Mapping)** tool provided by Microsoft. It allows .NET developers to work with a database using .NET objects, eliminating the need for most of the data-access code.
 
 ---
+## DBContext
+    DbContext is a class provided by Entity Framework, which is an Object-Relational Mapping (ORM)  framework developed by Microsoft. DbContext represents a session with the underlying database and allows you to query and interact with the database using objects in your code, without having to directly deal with database-specific operations or SQL queries.
+### 1. Defining Entities
+    First, you define entity classes that represent tables in your database. These classes typically have properties that map to columns in the corresponding tables.
+    ![de](https://github.com/user-attachments/assets/c371767b-f134-4975-8503-1a308d315dcd)
 
 ## 🔧 Configuration Approaches
 
-
+### 
 
 - **Fluent API** – Configure models using code in `OnModelCreating`.
 - **Data Annotations** – Use attributes in your entity classes.
